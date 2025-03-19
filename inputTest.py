@@ -1,5 +1,5 @@
-num1 = int (input ('숫자1 ==>'))
-num2 = int (input ('숫자2 ==>'))
+num1 = int (input ('숫자1 ==> '))
+num2 = int (input ('숫자2 ==> '))
 
 numSum = num1 + num2
 numSub = num1 - num2
