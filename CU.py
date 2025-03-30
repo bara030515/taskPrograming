@@ -58,12 +58,12 @@ snacks = tkinter.Label(root, text='새우깡', font=('돋움',10))
 
 lbSell.place(x=10, y=70)
 lbCost.place(x=10, y=120)
-coffee.place(x=75, y=25)
-samkim.place(x=160, y=25)
-banana.place(x=245, y=25)
-lunchs.place(x=330, y=25)
-cokela.place(x=415, y=25)
-snacks.place(x=500, y=25)
+coffee.place(x=70, y=25)
+samkim.place(x=152, y=25)
+banana.place(x=227, y=25)
+lunchs.place(x=328, y=25)
+cokela.place(x=417, y=25)
+snacks.place(x=497, y=25)
 
 # 수량 입력칸 설정
 entry1_1 = tkinter.Entry(width=5)
@@ -95,8 +95,8 @@ entry2_4.place(x=330, y=120)
 entry2_5.place(x=415, y=120)
 entry2_6.place(x=500, y=120)
 
-# 계산 버튼튼
+# 계산 버튼
 calculation = tkinter.Button(root, text='계산', font=('돋움', 10), command=click_calculation)
-calculation.place(x=100, y= 150, width=400)
+calculation.place(x=50, y= 160, width=500)
 
 root.mainloop()
